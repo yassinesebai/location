@@ -1,0 +1,136 @@
+body {
+    overflow-x: hidden;
+}
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+#logo {
+    height: 60px !important;
+    padding: 10px;
+}
+
+.bi {
+    height: 70px;
+}
+.navbar {
+    padding: 0 !important;
+}
+.navicon {
+    height: 21px !important;
+}
+.smicon {
+    height: 28px;
+}
+
+#email {
+    font-size: 14px;
+    color: grey;
+}
+
+.currentItem {
+    border-bottom: 2px solid white;
+}
+
+.nav-item {
+    margin: 0 10px 0;
+}
+.learnmore {
+    background-color: black !important;
+}
+.learnmore, .booknow {
+    font-size: 14px !important;
+    padding: 14px !important;
+    width: 22%;
+    font-family: "poppins", sans-serif;
+    font-weight: 500 !important;
+}
+
+
+.car {
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title h2, .desc {
+    font-family: "poppins", sans-serif;
+    font-size: 25px;
+}
+
+.title .desc {
+    font-size: 20px;
+    font-weight: 300;
+}
+.title h1{
+    font-family: "poppins", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+.col-md-6 {
+    height: 80vh;
+}
+.av {
+    height: 5vh;
+    text-align: center;
+    color: white;
+}
+.av h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.deal {
+    color: white !important;
+    border-bottom: 1px solid white;
+}
+.deal:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1268px) {
+    .b, .smicon {
+      display: none;
+    }
+    .nav-link {
+        border-bottom: none !important;
+    }
+    .navbar-light ul{
+        display: inline !important;
+        position:fixed;
+        right: 0;
+    }
+    .navbar-dark ul{
+        text-align: center;
+        padding: 15px !important;
+    }
+    h1 {
+        font-size: 45px !important;
+    }
+    h2 {
+        font-size: 20px !important;
+        margin-bottom: 25px !important;
+    }
+    .desc, h3 {
+        font-size: 14px !important;
+    }
+    .learnmore, .booknow {
+        width: 50% !important;
+        margin-top: 15px !important;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px !important;
+    }
+    h2 {
+        font-size: 18px !important;
+        margin-bottom: 25px !important;
+    }
+    .desc, h3 {
+        font-size: 16px !important;
+    }
+    .learnmore, .booknow {
+        width: 50% !important;
+        margin-top: 15px !important;
+    }
+  }
